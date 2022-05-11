@@ -12,7 +12,7 @@ public class CommentDto {
     @NotEmpty(message = "Name should not be Null or empty")
     private String name;
 
-    @NotEmpty(message = "Email should not beNull or empty")
+    @NotEmpty(message = "Email should not be Null or empty")
     @Email
     private String email;
 
